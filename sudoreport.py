@@ -63,7 +63,6 @@ def search_sudo(logfile, recap):
                 event.sudo_print()
                 recap = summary_update(recap, event)
 
-logfile = '/var/log'
 recap = {}
 
 for file in pathlib.Path("/var/log/").iterdir():
